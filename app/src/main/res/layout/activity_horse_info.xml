@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".horse_info"
+    android:background="#DDCDBD">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:background="#A4673108"
+        android:layoutDirection="ltr">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:padding="5dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/text2"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".horse_info"
+            android:background="#DDCDBD">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@drawable/text_shape"
+        android:foreground="@drawable/text5"
+        android:layout_margin="15dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:src="@drawable/horse"
+                android:scaleType="fitXY"/>
+
+            <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@drawable/text_shape"
+        android:foreground="@drawable/text6"
+        android:layout_margin="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/original_horse"
+                android:textColor="#987"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:background="@drawable/text_shape"
+                android:foreground="@drawable/text7"
+                android:layout_margin="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/horse_reaction"
+                android:layout_margin="15dp"
+                android:scaleType="fitXY"/>
+           />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/horse_language"
+                android:layout_margin="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#987"/>
+               />
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>
